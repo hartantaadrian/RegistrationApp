@@ -5,7 +5,7 @@ let instance = axios.create(
   {
     baseURL:
       process.env.NODE_ENV === "production"
-        ? "https://172.19.8.76:7843"
+        ? "https://60dc58e9c2b6280017feb901.mockapi.io"
         : "https://60dc58e9c2b6280017feb901.mockapi.io",
     withCredentials: false,
     headers: {
